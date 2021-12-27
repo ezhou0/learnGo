@@ -36,6 +36,13 @@ func main() {
 	fmt.Println(a - b)
 	fmt.Println(a * b)
 	fmt.Println(a / b)
-	fmt.Println(a % b)
+	fmt.Println(a % b) //go will error out with diff int types(int, uint8, 16, 32, 64) and other types like float. 
+
+	fmt.Println(a & b)
+	fmt.Println(a | b)
+	fmt.Println(a ^ b)
+	fmt.Println(a &^ b)
+	fmt.Println(a << 3)
+	fmt.Println(a >> 3)
 
 }
