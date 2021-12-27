@@ -54,6 +54,14 @@ func main() {
 
 	var p complex64 = 1 + 2i
 	fmt.Printf("%v, %T\n", p , p)
+	fmt.Printf("%v, %T\n", real(p) , real(p))
+	fmt.Printf("%v, %T\n", imag(p) , imag(p))
+
+	s := "This is a string" //string
+	t := []byte(s) //rune- same as int32
+	fmt.Printf("%v, %T\n",s,s)
+	fmt.Printf("%v, %T\n",t,t)
+	
 
 
 }
