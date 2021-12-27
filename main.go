@@ -45,4 +45,15 @@ func main() {
 	fmt.Println(a << 3)
 	fmt.Println(a >> 3)
 
+	m := 3.14
+	m = 13.7e73
+	m = 2.1E14
+	var o float64 = 3.14
+	fmt.Printf("%v, %T",m,m)
+	fmt.Printf("%v, %T",o,o)
+
+	var p complex64 = 1 + 2i
+	fmt.Printf("%v, %T\n", p , p)
+
+
 }
